@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+table, .configurador, #tempo {
+    width: 500px;
+    margin:auto; /*centralizar a tabela */
+    border: 1px solid black;
+    border-collapse: collapse; /* une a bordas da tabela */
+}
+
+
+table td {
+    border:1px solid black;
+    height: 166px; /*deixa quadrado cada celula */
+    width: 166px;
+    text-align: center;
+    font-size: 96px;
+}
+.configurador, #tempo {
+     text-align: center;
+     border: none;
+     margin-bottom: 10px;
+}
+
+.configurador input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.configurador span {
+    background-color: lightgray;
+    padding: 9px 15px 11.5px 15px;
+    vertical-align: baseline;
+    border: 1px solid gray;
+}
+
+.configurador button {
+    padding: 8px 15px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+.msg {
+    width: 100%;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    height: 40px;
+    border: 1px solid lightgray;
+    color: gray;
+}
